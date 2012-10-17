@@ -7,6 +7,8 @@ class MyApp
    @stdout.puts "Welcome!"
    input = gets #Julie
    @stdout.puts "Welcome, #{input.strip}"
+   input = gets #Bob
+   @stdout.puts "Welcome, #{input.strip}"
   end
 
 end
